@@ -2,7 +2,7 @@
 -- The SQL in this file will be executed when you run `npm run setup-db`
 drop table if exists cats;
 
-create table dogs (
+create table cats (
     id BIGINT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR NOT NULL,
     type VARCHAR NOT NULL,
@@ -20,4 +20,4 @@ insert into cats (name, type, url, year, lives, isSidekick) values
 ('Sylvester', 'Tuxedo', 'https://static.wikia.nocookie.net/charactercommunity/images/7/73/SylvesterDance.png', 1945, 1, true),
 ('Tigger', 'Tiger', 'https://www.pinclipart.com/picdir/big/150-1504133_tigger-tigger-cartoon-me-clipart-png-image-download.png', 1928, 8, false),
 ('Hello Kitty', 'Angora', 'https://cdn.shopify.com/s/files/1/0054/4371/5170/products/FiGPiN_360HelloKittySANRIOPIN.png?v=1627413934', 1974, 9, false),
-('Hobbes', 'Tiger', 'https://sketchok.com/images/articles/01-cartoons/000-va/102/10.jpg', 1985, 6, true),
+('Hobbes', 'Tiger', 'https://sketchok.com/images/articles/01-cartoons/000-va/102/10.jpg', 1985, 6, true);
