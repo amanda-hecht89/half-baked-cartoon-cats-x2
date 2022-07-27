@@ -7,12 +7,12 @@ create table cats (
     name VARCHAR NOT NULL,
     type VARCHAR NOT NULL,
     url VARCHAR NOT NULL,
-    year BIGINT,
-    lives BIGINT,
-    isSidekick BOOLEAN
+    year INT,
+    lives INT,
+    is_sidekick BOOLEAN
 );
 
-insert into cats (name, type, url, year, lives, isSidekick) values
+insert into cats (name, type, url, year, lives, is_sidekick) values
 ('Felix', 'Tuxedo', 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Felix_the_cat.svg/200px-Felix_the_cat.svg.png', 1892, 3, false),
 ('Garfield', 'Orange Tabby', 'https://static.wikia.nocookie.net/garfield/images/9/9f/GarfieldCharacter.jpg', 1978, 7, false),
 ('Duchess', 'Angora', 'https://static.wikia.nocookie.net/disney/images/e/eb/Profile_-_Duchess.jpeg', 1990, 9, false),
