@@ -12,7 +12,7 @@ create table dogs (
     isSidekick BOOLEAN
 );
 
-insert into cates (name, type, url, year, lives, isSidekick) values
+insert into cats (name, type, url, year, lives, isSidekick) values
 ('Felix', 'Tuxedo', 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Felix_the_cat.svg/200px-Felix_the_cat.svg.png', 1892, 3, false),
 ('Garfield', 'Orange Tabby', 'https://static.wikia.nocookie.net/garfield/images/9/9f/GarfieldCharacter.jpg', 1978, 7, false),
 ('Duchess', 'Angora', 'https://static.wikia.nocookie.net/disney/images/e/eb/Profile_-_Duchess.jpeg', 1990, 9, false),
