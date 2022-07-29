@@ -20,6 +20,7 @@ describe('cats routes', () => {
 
   it('/cats/:id should return cat detail', async () => {
     const res = await request(app).get('/cats/1');
+    console.log(res.body);
     const felix = {
       id: '1',
       name: 'Felix',
